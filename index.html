@@ -4,42 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Incial</title>
+    <title>Início</title>
+    <link rel="stylesheet" href="assets/style/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
-            <a href="https://www.google.com" target="_blank"> Google</a>
-        </li>
-        <li>
-            <a href="index.html"> Inicial</a>
+            <a href="index.html"> Início</a>
         </li>
         <li>
             <a href="contato.html"> Contato</a>
         </li>
     </ul>
     
-    <h1>Sobre a Amanda</h1>
-    
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium mollitia, excepturi ullam alias, velit voluptates repellat accusamus ,minima soluta omnis quo aut nemo, sapiente ab sed adipisci! Ad blanditiis vel consequuntur ducimus? Culpa corrupti ipsa mollitia eaque commodi placeat repellendus explicabo ea dolores unde? Nostrum?
-    </p>
+    <h1 class="titulo">Sobre mim</h1>
 
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quisquam suscipit quam impedit facilis, fugit aut architecto recusandae assumenda tempora ducimus voluptatibus dicta consequatur quasi laborum doloremque soluta. Dicta, expedita.
-    </p>
+    <div class="container">
+        <div class="pr-10">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium mollitia, excepturi ullam alias, velit voluptates repellat accusamus ,minima soluta omnis quo aut nemo, sapiente ab sed adipisci! Ad blanditiis vel consequuntur ducimus? Culpa corrupti ipsa mollitia eaque commodi placeat repellendus explicabo ea dolores unde? Nostrum?
+            </p>
 
-    <img src="assets/img/minha-foto.jpeg" alt="Foto de perfil">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quisquam suscipit quam impedit facilis, fugit aut architecto recusandae assumenda tempora ducimus voluptatibus dicta consequatur quasi laborum doloremque soluta. Dicta, expedita.
+            </p>
+        </div>
+
+        <div class="foto">
+            <img class="perfil" src="assets/img/minha-foto.jpeg" alt="Foto de perfil">
+        </div>
+    </div>
     
-    <h2>Minha música favorita</h2>
-    
-    <iframe 
-        width="560vw" height="315vw" 
-        src="https://www.youtube.com/embed/1P9wA24TRmY" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen
-    ></iframe>
+    <div class="center">
+        <div>
+            <h2 class="">Minha música favorita</h2>
+        </div>
+
+        <div>
+            <iframe 
+                width="560vw" height="315vw" 
+                src="https://www.youtube.com/embed/1P9wA24TRmY" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen
+            ></iframe>
+        </div>
+    </div>
+
+    <div class="social center">
+        <a href="https://github.com/amandioca" target="_blank">
+            <img class="social" src="assets/img/github.png" alt="GitHub">    
+        </a>
+
+        <a href="https://www.linkedin.com/in/amandioca/" target="_blank">
+            <img class="social" src="assets/img/linkedin.png" alt="Linkedin">
+        </a>
+    </div>
+
+    <footer>
+        <p class="center">
+            Todos os direitos reservados: Amanda Amorim &copy;
+        </p>
+    </footer>
 </body>
 </html>
