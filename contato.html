@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="assets/img/github.png"/>
 </head>
 <body>
     <ul id="menu">>
@@ -23,16 +24,19 @@
         <div class="formulario pr-10">
             <form>
                 <label for="nome"> Nome:</label>
-                <input class="space" type="text" id="nome">
+                <input class="space" type="text" id="nome" onkeyup='validaNome()'>
+                <div class="valida" id="txtNome"></div>
 
                 <label for="email"> Email:</label>
-                <input class="space" type="email" id="email">
-
+                <input class="space" type="email" id="email" onkeyup='validaEmail()'>
+                <div class="valida" id="txtEmail"></div>
+                
                 <label for="assunto"> Assunto:</label>
-                <textarea class="space" name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <textarea class="space" name="assunto" id="assunto" cols="60" rows="5" onkeyup='validaAssunto()'></textarea>
+                <div class="valida" id="txtAssunto"></div>
             </form>
 
-            <button>Enviar</button>
+            <button onclick="enviar()">Enviar</button>
         </div>
 
         <div>        
@@ -63,6 +67,7 @@
         <p class="footer center">
             Todos os direitos reservados: Amanda Amorim &copy;
         </p>
-    </footer>    
+    </footer>
+    <script src="assets/script/script.js"></script> 
 </body>
 </html>
