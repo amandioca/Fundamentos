@@ -1,0 +1,70 @@
+/*Estilos da pag. index.html*/
+.center{
+    justify-content: center;
+    text-align: center;    
+}
+.titulo{
+    text-align: center;
+    padding: 5;
+}
+
+.container{
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.foto{
+    display: flex;
+    order: -1;
+    padding: 3% 3% 3% 10%;
+}
+
+.perfil{
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+}
+
+.pr-10{
+    padding-right: 10%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+
+#menu li{
+    display: inline;
+    padding: 2vw;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+
+.social a img{
+    padding: 2% 1% 1% 1%;
+}
+
+/*Estilos da pag. contato.html*/
+
+.formulario form{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.space{
+    margin-bottom: 4%;
+}
+
+.rodape{
+    display: flex;
+    align-items: ;
+}
